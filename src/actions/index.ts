@@ -50,7 +50,7 @@ export async function createSnippet(
   } catch (err: unknown) {
     if (err instanceof Error) {
       return {
-        mesage: err.message,
+        message: err.message,
       };
     } else {
       return {
